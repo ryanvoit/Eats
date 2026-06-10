@@ -1,0 +1,41 @@
+.restaurant-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 12px;
+    gap: 6px
+}
+
+.restaurant-card__image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.restaurant-card__name {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.restaurant-card__description {
+    color: rgba(175, 0, 0, 0.742);
+    font-weight: 600;
+}
+
+.restaurant-card__rating {
+    display: flex;
+    gap: 2px
+}
+
+.logo__star {
+    color: gray;
+}
+
+.logo__star--active {
+    color: rgb(170, 170, 24)
+}
+
+.star-btn {
+    border: none;
+    background-color: transparent;
+}
